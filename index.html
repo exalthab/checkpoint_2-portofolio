@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portofolio</title>
+</head>
+<body style="background-color: beige; margin: 60px;">
+    <!-- use semantic tags.
+    add a video/audio to the web page.
+    use local links, lists, or tables.
+    use HTML forms.-->
+    
+    <!-- Create the navbar
+     1-Create the navbar: home, about, work, resume, contact-->
+    <div class="navbar" style="background-color: rgb(60, 49, 49); text-align: left;">
+        <ul>
+            <a href="/index.html" style="display: inline-block; padding: 14px 20px; color:white;">Home</a>
+            <a href="#about" style="display: inline-block; padding: 14px 20px; color:white;">About</a>
+            <a href="#work" style="display: inline-block; padding: 14px 20px; color:white;">Work</a>
+            <a href="#resume" style="display: inline-block; padding: 14px 20px; color:white;">Resume</a>
+            <a href="#contact" style="display: inline-block; padding: 14px 20px; color:white;">Contact</a>
+        </ul>
+    </div>
+    <!--create section
+     2-Create the “about” section, ”work” section, 
+     ”resume” section, and ”contact” section (using HTML Forms) -->
+     <section id="about">
+        <h2>About</h2>
+        <p style="font-size: 30px;">We are a tourism company named Ultime Tourism Agency. At <strong style="color: orangered;">ULTIME TOURSIM AGENCY</strong>, we specialize in creating unique and memorable travel experiences tailored to your sense of adventure and curiosity. Whether you're looking to explore hidden gems, immerse yourself in local cultures, or simply unwind in nature’s beauty, we’re here to turn your travel dreams into reality.</p>
+        <div style="text-align: center; types:video/mp4;">
+            <iframe src="/image/oiseaux.mp4" width="1200" height="750" ></iframe>
+        </div> 
+     </section>
+     <hr>
+     <section id="work">
+        <h2>Work</h2>
+        <p style="font-size: 30px;">With a passion for discovery and a deep knowledge of our destinations, our team is committed to providing exceptional WORK service, authentic experiences, and moments you’ll never forget.</p>
+        <div>
+            <img src="/image/portofo1.jpg" width="1400" height="900" alt="image1">
+        </div>
+     </section">
+     <hr>
+     <section id="resume">
+        <h2>Resume</h2>
+        <dl style="font-size: 20px;"> 
+            <h2>Our Journey Through the Years</h2>
+  
+            <dt><strong>2015</strong></dt> 
+            <dd>Our company was founded with the goal of promoting local culture and sustainable tourism</dd> 
+            <dt><strong>2016</strong></dt> 
+            <dd>Expanded our services to include adventure tours and nature excursions.</dd> 
+            <dt><strong>2017</strong></dt>
+            <dd>Reached 1,000 happy customers and partnered with local communities.</dd>
+            <dt><strong>2019</strong></dt>
+            <dd>Launched our international tour packages.</dd>
+            <dt><strong>2024</strong></dt>
+            <dd>Recognized as one of the top-rated tour companies in the region.</dd>
+            </dl>
+     </section>
+     <hr>
+     <form id="contact" style="font-size: 30px;">
+        <fieldset>
+            <legend><strong>Contact</strong></legend>
+            <label>FirstName:</label>
+            <input type="text" name="FirstName" placeholder="enter your name" required><br>
+            <label>LastName</label>
+            <input type="text" name="LastName" id="LastName" placeholder="enter your lastname" required><br>
+            <label>Email</label>
+            <input type="email" name="Email" id="email" placeholder="enter your email" required><br>
+            <label>Leave a message</label>
+            <input type="text" placeholder="enter your message" required><br>
+            <button type="submit">Submit message</button>
+            <h3>Our physical contact</h3>
+            Dakar, Senegal, Saint-Michel, Av 6
+            <a href="tel:+221-xxx-xxx"><br>Tel : +221-xxx-xxx</a>
+
+        </fieldset>
+     </form>
+
+
+     <!-- FOOTER
+     3- Create the page footer.-->
+    <footer>&copy2025 Designed <a href="mailto:exalthab@gmail.com">by THEO</a></footer>
+</body>
+</html>
